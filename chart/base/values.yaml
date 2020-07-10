@@ -37,11 +37,11 @@ ingress:
 #  tlsSecretName: ""
 
 vcsInfo:
-  repoUrl: ""
-  branch: ""
+  repoUrl: "https://github.com/tsubhojit/book-api.git"
+  branch: "master"
 
-partOf: ""
+partOf: "rail-ticket-dev"
 
-connectsTo: ""
+connectsTo: "mysql"
 
 runtime: spring
